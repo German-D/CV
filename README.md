@@ -1,2 +1,2 @@
 # CV
-Сайт на просто HTML + CSS + JS
+Сайт на простом HTML + CSS + JS
