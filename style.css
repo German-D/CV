@@ -8,11 +8,35 @@ body {
   margin-left: 80px;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+  /* Свойства фотографии*/
+.photo {
+  border-radius: 100px;
+  /* Радиус скругления */
+  border: 3px solid transparent;
+  /* Параметры рамки */
+  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+  object-fit: cover;
+}
+
+  /* Эффект наведения на картинку */
+.photo:hover {
+  border: 3px solid #FFD700;
+}
+
   /* Свойства ссылок */
 a {
   display: block;
   text-decoration:none;
-  margin-bottom: 1.2em;
+  margin-bottom: 35px;
   position: relative;
 }
 
@@ -32,26 +56,3 @@ a::after {
   width: 300px;
 }
 
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin: 1.25em 0;
-}
-
-  /* Свойства фотографии*/
-.photo {
-  border-radius: 100px;
-  /* Радиус скругления */
-  border: 3px solid transparent;
-  /* Параметры рамки */
-  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
-  object-fit: cover;
-}
-
-  /* Эффект наведения на картинку */
-.photo:hover {
-  border: 3px solid #FFD700;
-}
