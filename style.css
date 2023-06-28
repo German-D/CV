@@ -3,6 +3,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.merch {
+  color: blue;
+}
+
 .container {
   padding: 0 40px;
   margin-left: 100px;
