@@ -1,24 +1,29 @@
 
 body {
   font-family: Roboto, sans-serif;
+  display: block;
 }
 
 .merch {
-  color: blue;
+  color: rgba(18, 22, 221, 0.925);
 }
 
 .container {
   padding: 0 40px;
   margin-left: 100px;
+  text-align: center
 }
 
 h1 {
-  font-size: 40px;
+  color: rgba(18, 22, 221, 0.925);
+  font-size: 30px;
+  text-align: center;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 40px;
   margin: 25px 0;
+  text-align: center
 }
 
   /* Свойства фотографии*/
@@ -29,6 +34,8 @@ h2 {
   /* Параметры рамки */
   box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
   object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
   /* Эффект наведения на картинку */
@@ -42,6 +49,7 @@ a {
   text-decoration:none;
   margin-bottom: 35px;
   position: relative;
+  text-align: center
 }
 
   /* Что делать при наведении на ссылку */
