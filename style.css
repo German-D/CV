@@ -3,9 +3,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.merch {
-  color: blue;
-}
 
 .container {
   padding: 0 40px;
@@ -59,4 +56,6 @@ a::after {
   border-bottom: 1px solid #dadada;
   width: 300px;
 }
-
+.merch {
+  color: blue;
+}
